@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CV-Educacion</title>
+  </head>
+  <body>
+    <header>
+        <img src="imagenes/logo.svg" width="100px">
+        <h1>Hoja de vida</h1>
+        <h2><em>Danilo Enrique</em></h2>
+        <h2><em>Morales Avendaño</em></h2>
+        <h2><em>27 de enero de 1,988</em></h2>
+        <h2><em>Ciudad de Guatemala, Guatemala</em></h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+        <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <td colspan="4">Datos de Certificados, Cursos y/o Titulos</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Año</td>
+              <td>institución</td>
+              <td>Lugar</td>
+              <td>Culminio</td>
+            </tr>
+            <tr>
+              <td>2000</td>
+              <td>Colegio1</td>
+              <td>Guatemala</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2001</td>
+              <td>Colegio2</td>
+              <td>Guatemala</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>Colegio3</td>
+              <td>Guatemala</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    <article>
+      <form class="nEstudio" action="educacion.html" method="post">
+        <fieldset>
+          <legend>Agregar Estudio</legend>
+          <label>Seleccione año:</label>
+          <select class="nAnio">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+          </select>
+          <br>
+          <label>Institución:</label> <input type="text" name="" value=" " required>
+          <br>
+          <label>Lugar:</label> <input type="text" name="" value="" required>
+          <br>
+          <input type="submit" name="" value="enviar">
+        </fieldset>
+      </form>
+    </article>
+    <footer>
+        <h3>Contacto</h3>
+        <label><strong>Correo:</strong>dmorales027@gmail.com</label>
+        <label><strong>Dirección:</strong>Guatemala Guatemala</label>
+        <label><strong>Teléfono:</strong>12345-6798</label>
+    </footer>
+  </body>
+</html>
